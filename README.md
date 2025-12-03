@@ -75,8 +75,8 @@ mkdir src\main\resources && copy nul src\main\resources\app.properties
 И заполните этот файл данной командой 
 ```YAML
 echo urls.file.path=./config/urls.txt >src\main\resources\app.properties 
-echo http.timeout.ms=5000 >>src\main\resources\app.properties 
-echo http.method=GET >>src\main\resources\app.properties 
+echo http.timeout.ms=5000>>src\main\resources\app.properties 
+echo http.method=GET>>src\main\resources\app.properties 
 ```
 
 
