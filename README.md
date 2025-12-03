@@ -79,5 +79,15 @@ echo http.timeout.ms=5000>>src\main\resources\app.properties
 echo http.method=GET>>src\main\resources\app.properties 
 ```
 
+### **6.** Соберите проект и запустите с помощью данных команд
 
+Сборка
+```YAML
+gradle build
+```
+Запуск
+```YAML
+gradle run
+```
+ 
 
