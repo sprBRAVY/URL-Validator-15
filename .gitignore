@@ -1,0 +1,24 @@
+﻿# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+
+# IDE
+.idea/
+*.iml
+out/
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# App config (не коммитим!)
+src/main/resources/app.properties
+config/urls.txt
+
+# Temp
+temp_init/
