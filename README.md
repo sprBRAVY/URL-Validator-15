@@ -70,13 +70,13 @@ echo https://192.0.2.1 >> config\urls.txt
 ```
 Далее командой создать файл app.propreties:
 ```YAML
-mkdir src\main\resources && copy nul src\main\resources\app.properties 
+mkdir src\main\resources && copy nul src\main\resources\app.properties
 ```
 И заполните этот файл данной командой 
 ```YAML
-echo urls.file.path=./config/urls.txt >src\main\resources\app.properties 
-echo http.timeout.ms=5000>>src\main\resources\app.properties 
-echo http.method=GET>>src\main\resources\app.properties 
+echo urls.file.path=./config/urls.txt >src\main\resources\app.properties
+echo http.timeout.ms=5000>>src\main\resources\app.properties
+echo http.method=GET>>src\main\resources\app.properties
 ```
 
 ### **6.** Соберите проект и запустите с помощью данных команд
